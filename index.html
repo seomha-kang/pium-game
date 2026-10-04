@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff8ec">
+  <meta name="description" content="피움이와 다섯 개의 마음 지역을 탐험하고, 동신대학교 학생상담센터의 업무를 알아보는 모바일 웹게임.">
+  <title>피움이와 함께하는 학생상담센터 탐험</title>
+  <link rel="icon" href="assets/pium.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="game.js"></script>
+</head>
+<body>
+  <main id="game" class="game-shell" aria-label="학생상담센터 탐험 게임">
+    <section class="screen start-screen" aria-labelledby="start-title">
+      <div class="edition">DONGSHIN UNIVERSITY · 마음 탐험대</div>
+      <div class="chapter-tag">🌱 피움이와 함께하는</div>
+      <h1 id="start-title">학생상담센터<br><span>탐험</span></h1>
+      <div class="hero-character"><div class="halo"></div><span class="spark spark-one">✦</span><span class="spark spark-two">✦</span><img class="pium hero-pium" src="assets/pium.png" alt="탐험을 안내하는 피움이" width="576" height="576"><span class="character-name">YOUR GUIDE · 피움이</span></div>
+      <div class="welcome-bubble">안녕! 나는 피움이야 🌱<br>학생상담센터에서는 어떤 일을 하고 있을까?<br>나와 함께 직접 탐험해보자!</div>
+      <button class="primary start-button" data-action="start">탐험 START <span aria-hidden="true">▶</span></button>
+      <div class="start-note">다섯 개의 마음 지역 · 다섯 장의 꽃잎</div>
+    </section>
+  </main>
+  <dialog id="photo-dialog" aria-label="활동 사진 크게 보기"><button class="photo-close" autofocus aria-label="사진 닫기">✕</button><img id="photo-large" alt=""><p id="photo-caption"></p><small>첨부 소개 자료의 활동 기록</small></dialog>
+  <noscript>게임을 플레이하려면 브라우저의 JavaScript를 켜주세요.</noscript>
+</body>
+</html>
